@@ -1,0 +1,8 @@
+# Basic Prometheus scrape config for the app
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'multi-stage-app'
+    static_configs:
+      - targets: ['multi-stage-service.course-project.svc.cluster.local:3000']

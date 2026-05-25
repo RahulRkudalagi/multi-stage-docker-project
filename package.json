@@ -1,0 +1,22 @@
+{
+  "name": "course-project",
+  "version": "1.0.0",
+  "description": "Project demonstrating Docker multi-stage builds, GitHub Actions CI/CD with Trivy scanning, Docker Hub integration, Minikube deployment, and Prometheus-ready monitoring annotations.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  }
+}
